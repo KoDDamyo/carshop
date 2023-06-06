@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1, header ul li, section h2, section h3, form button {
+    font-family: 'Kanit', sans-serif;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a:hover {
+    color: rgb(134, 134, 134);
+}
+
+header nav li a {
+    text-decoration: none;
+    display: inline;
+    margin-left: 16px;
+    color: white;
+}
+
+.container, .container2, .container3 {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container2 {
+    display: flex;
+} 
+
+section .container, section .container2 {
+    align-items: flex-start;
+}
+
+section {
+    color: rgb(34, 34, 34);
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.car-front, .car-side {
+    margin-right: 32px;
+    width: 700px;
+    height: 500px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+.social-links img {
+    height: 40px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container3 {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 2px;
+    border: none;
+}
+
+form button {
+    background-color: rgb(34, 34, 34) ;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(63, 63, 63);
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(34, 34, 34);
+}
+
+#about {
+    background-color: rgb(233, 233, 233);
+}
+
+#specify {
+    background-color: rgb(245, 245, 245);
+}
+
+#contact {
+    background-color: rgb(236, 236, 236);
+}
+
+footer {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 16px 0;
+}
+
